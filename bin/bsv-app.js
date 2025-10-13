@@ -135,7 +135,7 @@ async function run() {
   const currentUser = os.hostname() // Use the hostname of the computer
   try {
     if (options.yes) {
-      template = 'Meter - A feature-packed starting point'
+      template = 'Meter - An intro to Wallet, sCrypt and overlays'
       projectName = 'bsv-app'
       authorName = ''
     } else {
